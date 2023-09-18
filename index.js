@@ -15,6 +15,6 @@ function validarForm(event){
         correoElement.style.borderColor = "";
         correoElement.style.backgroundColor = "";
         localStorage.setItem('miVariable', correo);
-        window.open("Thanks.html", "_self");  // "_self" abre en la misma ventana/tab, "_blank" abre en una nueva ventana/tab
+        window.location.href = "Thanks/Thanks.html";  // "_self" abre en la misma ventana/tab, "_blank" abre en una nueva ventana/tab
     }
 }
